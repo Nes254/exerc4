@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+ <head>
+     <title>Into the Forest</title>
+     <meta name="description" content="HTML tutorial">
+     <meta name="keywords"
+    content="HTML,CSS,XML,JavaScript">
+     <meta name="author" content="Rui Jesus">
+     <meta http-equiv="refresh" content="30">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" type="text/css" href="css/newstyle.css">
+
+     </head>
+    </html>
+ </head>
+<!---Content starts here -->
+
+ <body>
+   <header> 
+      <a id="menu_icon">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+         <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+         </svg>
+         </a>
+      <div id="drawer">
+         <nav> 
+         <a href="#Into the Forest"> Into the Forest</a>
+         <a href="#Story"> Story</a>
+         <a href="the beginning"> The Beginning</a> 
+         <a href="#screenshots"> Screenshots</a>
+         <a href="#Citrus Kingdom"> Citrus Kingdom</a>
+         <a href="#Character Design"> Character Design</a>
+         <a href="#Different endings"> Different endings</a>
+         </nav>
+         </div>
+         
+   <h1>Into the forest</h1>
+   <p> Indie Video Game Dev </p> 
+   </header> 
+
+      <div id=“container”>
+         
+   <nav id="tabletPC" class="col-3"> 
+      <a href="#Into the Forest"> Into the Forest</a>
+      <br>
+      <a href="#Story"> Story</a>
+      <br>
+      <a href="the beginning"> The Beginning</a> 
+      <br>
+      <a href="#screenshots"> Screenshots</a>
+      <br>
+      <a href="#Citrus Kingdom"> Citrus Kingdom</a>
+      <br>
+      <a href="#Character Design"> Character Design</a>
+      <br>
+      <a href="#Different endings"> Different endings</a>
+   </nav>
+
+       <div id="container" class="col-9">
+      <section>
+    <a name="Into the Forest"></a>
+    <h2> Video game concept </h2>
+    <i>A Forest Adventure a young girl has to go throw to cure her father sickness</i>
+    <ul>
+    
+    
+    </section>
+
+    <section>
+    <a name="Story"></a>
+    <h2> Story </h2>
+ <i> In a small poor town surrended by a big forest, a little girl lived with her family, everyone was afraid of the forest and told storys that there lived creatures that eated human flesh,
+     but her father was not afraid and explored it at any given chance, untill a day he comes home sick and the only way to save him was to get a cure from the creatures... 
+     So this little girl adventure beggins and she finds herselfe having to make many choices that may or may not change everything she used to know. 
+   <p>
+   A game full of mystery, adventure and fantasy, what end will you choose, who will you save? 
+</i>
+
+</section>
+<p>
+<section> 
+   <h2> The Beginning </h2>
+   <p>
+   <a name="the beginning"></a>
+ <img src = "image1.jpg" width="100%" height="auto">
+ <p></p>
+</section>
+
+<section>
+   <p>
+   <h2> Screenshots </h2>
+   <p>
+ <a name="screenshots"></a>
+ <img src = "image2.png" width="100%" height="auto">
+ <p>
+ <img src = "image5.jpg" width="100%" height="auto">
+</section>
+<p>
+ <p>
+ </section>
+ <h2> Citrus Kingdom </h2>
+ <p>
+ <a name="Citrus Kingdom"></a>
+ <p>
+ <i> The first step of the game, the girl enters a citrus forest where she meets Mandarin Princess, the girl that's going to lead her on her mission </i>
+ <p>
+ <a name="video"></a>
+<video width="640" height="480" controls>
+  <source src="parte5.mp4" type="video/ogg">
+
+  </video> 
+  
+</section>
+
+<section> 
+   <h2> Character Design </h2>
+   <p>
+   <a name="Character Design"></a>
+   <p>
+   <i>Her foster mother character design sheet</i>
+   <p>
+ <img src = "image3.jpg" width="100%" height="auto">
+ <p>
+    <i>Mandarin Princess character design sheet</i>
+    <p>
+ <img src = "image4.jpg" width="100%" height="auto">
+ <p>
+   <i>Her real mother character design aka evil final boss</i>
+   <p>
+<img src = "image6.jpg" width="100%" height="auto">
+</section>
+
+<section>
+   <a name="Different endings"></a>
+ <table border=“1px”>
+    <th colspan="3"> Different endings </th>
+    <tr>
+    <td> Good ending </td> <td> Bad ending </td>
+    </tr>
+    <tr>
+    <td rowspan="4"> Little girl fights her evil (real) mother, bringing peace back to the forest and cures her father</td>
+    <td rowspan="3"> Little girl finding out about her real mother succumbs to her life as a evil creature and helps her mother destroy everything </td>
+ 
+   </table>
+</section>
+</div>
+     
+         <aside class="col-2">
+            <h3>Aside</h3>
+            <p> Video game hopefully comming soon...
+           </p>
+            </aside>
+           
+            <footer>
+            <h2>Developed by Inês Martins</h2>
+            </footer>
+<script>
+let menu_icon = document.querySelector('#menu_icon');
+                 let container = document.querySelector("#container");
+                 let drawer = document.querySelector('#drawer');
+
+                 menu_icon.addEventListener('click', function (e) {
+drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener('click', function () {
+drawer.classList.remove('open');
+});
+   </script>
+  
+ </body>
+<!---Content ends here -->
+
+</html>
